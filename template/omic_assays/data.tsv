@@ -1,0 +1,25 @@
+Ontology ID	Subset	Meaning (LinkML)	parent class	label	datatype	source	data status	requirement	min value	max value	capitalize	pattern	description	guidance	examples	EXPORT_GISAID	EXPORT_CNPHI	EXPORT_NML_LIMS	EXPORT_BIOSAMPLE	EXPORT_VirusSeq_Portal
+ID	AT oboInOwl:inSubset^^xsd:string		SC %																	
+hive:0000000	omics-assays			Identifer																
+hive:0000001	omics-assays		Identifer	Sample ID	xs:unique			required					A unique value that identifies the sample.							
+hive:0000002	omics-assays			Experiment Metadata																
+hive:0000003	omics-assays		Experiment Metadata	Project	select			required					The project that sample was collected for.		"KPMP, BUKMAP"					
+hive:0000004	omics-assays		Experiment Metadata	Experiment Name	xs:token			required					The name of the experiment.	"Depending on the project, expirements are named according to the formats ""KPMP_[Date][A-Z]_[assay code]"" or ""BUKMAP_[Date][A-Z]_[assay code]"""	"KPMP_20210917B_10X-Dual-R, BUKMAP_20210917B_10X-Dual-AC"					
+hive:0000005	omics-assays		Experiment Metadata	Experiment Status	select			required					The status of the expiremnt.		"S0 (nuclei), S1 (cDNA), S3 (NGS ongoing), S4 (fastq), S5 (Analysis), S6 (Deposited), GO"					
+hive:0000006	omics-assays			Sample Metadata																
+hive:0000007	omics-assays		Sample Metadata	Sample Type	xs:token			required			UPPER									
+hive:0000008	omics-assays		Sample Metadata	Cryosectioning Date	xs:date			recommended												
+hive:0000009	omics-assays		Sample Metadata	Cryosection Size (um)	xs:nonNegativeInteger			recommended												
+hive:0000010	omics-assays		Sample Metadata	Operator	xs:token								The person who conducted the assay.							
+																				
+hive:0000011			Project	KPMP																
+hive:0000012			Project	BUKMAP																
+hive:0000013																				
+																				
+hive:0000014			Experiment Status	S0 (nuclei)																
+hive:0000015			Experiment Status	S1 (cDNA)																
+hive:0000016			Experiment Status	S3 (NGS ongoing)																
+hive:0000017			Experiment Status	S4 (fastq)																
+hive:0000018			Experiment Status	S5 (Analysis)																
+hive:0000019			Experiment Status	S6 (Deposited)																
+hive:0000020			Experiment Status	GO																

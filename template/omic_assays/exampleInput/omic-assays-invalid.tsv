@@ -1,0 +1,8 @@
+Identifer	Experiment Metadata			Sample Metadata			
+Sample ID	Project	Experiment Name	Experiment Status	Sample Type	Cryosectioning Date	Cryosection Size (um)	Operator
+015_D2	KPMP	KPMP_20210901A_10X-Dual-AC	S5 (Analysis)	NUCLEI	2021-08-31	280	Kim
+015_D2	KPMP	KPMP_20210901A_10X-Dual-R	S5 (Analysis)	NUCLEI	2021-08-31	280	Kim
+016_D2	KPMP	KPMP_20210901B_10X-Dual-R	S5 (Analysis)		2021-08-31	280	Kim
+	KPMP	KPMP_20210915	GO	NUCLEI	2021-09-14		
+S-2006-005012_R1	KPMP	KPMP_20210915A_10X-R	S4 (fastq)	NUCLEI	2021-09-14	-1	Kim
+S-2002-007567_R1	KPMP	KPMP_20210915B_10X-R	S4 (fastq)	NUCLEI	20210914	280	Kim
